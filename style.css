@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: aqua;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    box-shadow: 0px 0px 50px #0003;
+    padding: 1rem;
+    height: 70vh;
+    width: 50%;
+    border-radius: 4px;
+    background-color: white;
+}
+.color-container{
+    height: 40vh;
+    border: 1px solid #0003;
+    margin-bottom: 1rem;
+}
+.input-holder{
+    margin-top: .5rem;
+    margin-left: 2rem;
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 5px;
+}
+.span{
+    font-size: 1.5rem;
+}
+.input-holder label{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
